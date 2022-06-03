@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1498497145 source:c:\users\nikra\desktop\aps jordano\aps_ed\infixoparaposfixo.c
+	"InfixoParaPosfixo.h"
+
+1497473517 c:\users\nikra\desktop\aps jordano\aps_ed\infixoparaposfixo.h
+	<string.h>
+	"PilhaDinamica.h"
+
+1498477241 c:\users\nikra\desktop\aps jordano\aps_ed\pilhadinamica.h
+
+1498497963 source:c:\users\nikra\desktop\aps jordano\aps_ed\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Utilitarios.h"
+	"InfixoParaPosfixo.h"
+
+1498477376 source:c:\users\nikra\desktop\aps jordano\aps_ed\pilhadinamica.c
+	<stdlib.h>
+	"PilhaDinamica.h"
+
+1440439532 source:c:\users\nikra\desktop\aps jordano\aps_ed\utilitarios.c
+	<stdio.h>
+	"Utilitarios.h"
+
+1440439562 c:\users\nikra\desktop\aps jordano\aps_ed\utilitarios.h
+
+1497409102 source:c:\users\nikra\desktop\aps jordano\aps_ed\listadinamica.c
+	<stdlib.h>
+	"ListaDinamica.h"
+
+1497409102 c:\users\nikra\desktop\aps jordano\aps_ed\listadinamica.h
+
+1498497146 source:e:\aps_ed\aps_ed\infixoparaposfixo.c
+	"InfixoParaPosfixo.h"
+
+1497473518 e:\aps_ed\aps_ed\infixoparaposfixo.h
+	<string.h>
+	"PilhaDinamica.h"
+
+1498477242 e:\aps_ed\aps_ed\pilhadinamica.h
+
+1498497964 source:e:\aps_ed\aps_ed\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Utilitarios.h"
+	"InfixoParaPosfixo.h"
+
+1440439562 e:\aps_ed\aps_ed\utilitarios.h
+
+1498477378 source:e:\aps_ed\aps_ed\pilhadinamica.c
+	<stdlib.h>
+	"PilhaDinamica.h"
+
+1440439532 source:e:\aps_ed\aps_ed\utilitarios.c
+	<stdio.h>
+	"Utilitarios.h"
+

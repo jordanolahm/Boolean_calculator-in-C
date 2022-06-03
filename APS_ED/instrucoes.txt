@@ -1,0 +1,31 @@
+Aluno: Jordano Vinicius Lahm.
+Nome da Aplicação: Calculadora Lógica
+
+Tabela de operadores lógicos: 
+~ negação
+^ e
+v ou
+_ ou..ou..
+> se...então...
+| ...se, e somente se...
+
+
+Funcionamento: 
+Dada uma expressão lógica, o programa verifica se tal expressão está correta, caso esteja, o programa então converte a expressão lógica que está no formato infixo para o formato pós-fixo. Estando no formato pós-fixo, o programa agora resolve a expressão e mostra seu resultado ao final.
+
+Resolvendo expressão pós-fixa:
+É lida cada posição do nosso vetor que contém a expressão lógica no formato pós-fixo. A cada posição lida é verificado se o caractere alí presente é um operador (~,^,v,_,>,|) ou um operando (0 ou 1). Caso o caractere seja um operando, ele é simplesmente colocado na pilha. Já se for um operador e este operador for a negação (~), o operando no topo da pilha é desempilhado e é feita a negação dele e esse resultado é empilhado, já se esse operador for qualquer um dos outros operadores (^,v,_,>,|), é retirado os dois operandos que estão no topo da pilha e é feita a operação entre eles e o resultado dessa operação é colocado na pilha.
+
+Introdução:
+Para utilização do algoritmo deve-se seguir os passos apresentados nessa introdução.
+Passo 1:Entrar com a sequência lógica requerida. 
+Passo 2: Verificar se os operadores são os lógicos contidos no problema. 
+Passo 3: Verificar se os operandos são os lógicos contidos no problema (0 ou 1). 
+Passo 4: Verificar se não há dois operadores juntos, considerando o tratamento especial da Negação. 
+Passo 5: Caso haja a utilização de parênteses, verificar se estão todos completos. 
+Passo 6: A lógica dispensa a utilização de colchetes, portanto caso houver a necessidade, utilizar dois parênteses com tratamento normal. 
+Passo 7: Verificar se não há erros de digitação, espaçamento ou caracteres estranhos. 
+Passo 8: Caso utilizar os arquivos, primeiro deve-se abrir o arquivo de entrada, colocar as sentenças separadas por um enter e salvar o arquivo. Logo após, deve-se abrir o arquivo de saída e verificar sequencialmente o retorno das sentenças avaliadas. No entanto, antes de abrir deve-se executar o prompt e escolher a opção 2, para então fechar o código e abrir o arquivo saída. 
+Passo 9: Caso utilizar o promp diretamente, deve-se digitar a sentença e pressionar enter para ter o retorno lógico. 
+Passo 10: Após ter feito todas as verificações acima, comparar o resultado obtido no console e no arquivo é um bom procedimento para análise lógica da sentença. Obtendo portanto, o resultado lógico operacional. 
+ 
